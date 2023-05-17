@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qual é bicho?</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="points">
+      <h1 class="txt-point">Pontos: 0</h1>
+    </div>
+
+    <main class="card">
+      <h1 class="title-header">Qual é o bicho?</h1>
+
+      <button class="btn-play">Jogar</button>
+
+      <form>
+        <div class="tip-appears hide">
+          <h3 class="guess">Esse bicho gosta de comer formigas</h3>
+
+          <div class="input-wrapper">
+            <input class="input-response" type="text" placeholder="exemplo: girafa">
+          </div>
+
+          <button class="btn-guess">Adivinhar</button>
+        </div>
+      
+      </form>
+
+    </main>
+  </div>
+
+  <div class="modal-wrapper">
+    <div class="modal">
+      <h2 class="title">
+        <span class="text-msg">Acertou</span>
+      </h2>
+      <button class="btn-try">Tentar Novamente</button>
+      <button class="btn-continue hide">Continuar</button>
+      
+    </div>
+  </div>
+
+<script src="js/index.js" type="module"></script>
+</body>
+</html>
